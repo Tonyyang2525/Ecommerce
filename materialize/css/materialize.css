@@ -2412,10 +2412,7 @@ select {
 button,
 html [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */
-}
+
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -2511,7 +2508,6 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type="search"] {
-  -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
@@ -2822,7 +2818,7 @@ video.responsive-video {
 .breadcrumb [class*="mdi-"],
 .breadcrumb i.material-icons {
   display: inline-block;
-  float: left;
+
   font-size: 24px;
 }
 
@@ -5843,12 +5839,6 @@ body.keyboard-focused .dropdown-content li:focus {
   transition: none !important;
 }
 
-.waves-circle {
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-}
-
 .waves-input-wrapper {
   border-radius: 0.2em;
   vertical-align: bottom;
@@ -5867,7 +5857,6 @@ body.keyboard-focused .dropdown-content li:focus {
   height: 2.5em;
   line-height: 2.5em;
   border-radius: 50%;
-  -webkit-mask-image: none;
 }
 
 .waves-block {
@@ -6179,16 +6168,6 @@ body.keyboard-focused .dropdown-content li:focus {
   font-size: 0.8rem;
   -webkit-transform: translateY(-140%);
   transform: translateY(-140%);
-}
-
-.materialboxed {
-  display: block;
-  cursor: -webkit-zoom-in;
-  cursor: zoom-in;
-  position: relative;
-  -webkit-transition: opacity 0.4s;
-  transition: opacity 0.4s;
-  -webkit-backface-visibility: hidden;
 }
 
 .materialboxed:hover:not(.active) {
@@ -7029,10 +7008,6 @@ textarea.materialize-textarea {
   pointer-events: none;
 }
 
-[type="checkbox"] {
-  /* checkbox aspect */
-}
-
 [type="checkbox"] + span:not(.lever) {
   position: relative;
   padding-left: 35px;
@@ -7585,10 +7560,6 @@ input[type="range"] + .thumb.active .value {
   margin-left: -1px;
   margin-top: 8px;
   font-size: 10px;
-}
-
-input[type="range"] {
-  -webkit-appearance: none;
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
