@@ -100,18 +100,6 @@ header h1 {
   text-align: center;
 }
 
-input[type="text"],
-select,
-textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid black; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-}
 /* this styles the div img*/
 .imgLogo {
   width: 100px;
